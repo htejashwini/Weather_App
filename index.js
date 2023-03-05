@@ -1,6 +1,4 @@
-//src="https://maps.google.com/maps?q=jhansi&t=&z=13&ie=UTF8&iwloc=&output=embed"
 
-// code to show any location weather
 function getData(){
 
     let city = document.getElementById("city").value
@@ -131,7 +129,7 @@ function append(data){
 
     let pressure = document.createElement("h3")
     pressure.style.color="white"
-    pressure.innerText = "Wind: " + data.main.pressure + "Pa";
+    pressure.innerText = "Pressure: " + data.main.pressure  + "Pa";
 
     div1.append(city,min,max,current,wind,humidity,pressure)
     container.append(div1,map);

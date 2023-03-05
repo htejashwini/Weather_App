@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
-
 body{
     background-image: url('https://source.unsplash.com/1600x900/?landscape');
-    font-size: 100%;
+    background-repeat:repeat-x;
     background-size:100%;
-    /* border: 1px solid blue; */
+    background-color: #000000;
 } 
 #top > button{
    opacity: 75%;
-    cursor: pointer;
-    width: 200px;
+cursor: pointer;
+width: 200px;
 height: 50px;
 border-radius: 40px;
 border: none;
